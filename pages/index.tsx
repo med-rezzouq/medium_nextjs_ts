@@ -20,7 +20,7 @@ interface Props {
 }
 
 
-const Home  = ({  netflixOriginals,
+const Home: NextPage =({  netflixOriginals,
   actionMovies,
   comedyMovies,
   documentaries,
