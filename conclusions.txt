@@ -1,0 +1,6 @@
+- learn that we can use interface instead of type so we can extend it in typescript
+- <Image/> of next helps do the lazyloading
+- when we write a key in env.local we ened prefix with next_public
+- we use heroicons and react-icons packages to get many free icons.
+- we can use nextjs as an api backend using api routes check link https://nextjs.org/docs/api-routes/introduction
+also this link custom server may help im not sure https://nextjs.org/docs/advanced-features/custom-server
