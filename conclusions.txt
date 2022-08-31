@@ -1,0 +1,10 @@
+- learn that we can use interface instead of type so we can extend it in typescript
+- <Image/> of next helps do the lazyloading
+- when we write a key in env.local we ened prefix with next_public
+- we use heroicons and react-icons packages to get many free icons.
+- we can use nextjs as an api backend using api routes check link https://nextjs.org/docs/api-routes/introduction
+also this link custom server may help im not sure https://nextjs.org/docs/advanced-features/custom-server
+-tailwind group feature , we can  make hover style for all child of an element using group-hover
+-useRef we used it 
+-npm packages of tailwind hideing scrollbar and package for custom scrollbar style or shadow for text they are added in plugins of next config
+-when we put ! before clasName the css of it becomes important example !text-white
