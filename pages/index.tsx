@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 import requests from '../utils/requests'
 import { Movie } from '../typings'
+import Row from '../components/Row'
 
 
 
@@ -41,6 +42,16 @@ const Home: NextPage =({  netflixOriginals,
         {/* Banner */}
         <Banner netflixOriginals={netflixOriginals} />
         <section>
+        <Row title="Trending Now" movies={trendingNow} />
+          <Row title="Top Rated" movies={topRated} />
+          <Row title="Action Thrillers" movies={actionMovies} />
+          {/* My List */}
+ 
+
+          <Row title="Comedies" movies={comedyMovies} />
+          <Row title="Scary Movies" movies={horrorMovies} />
+          <Row title="Romance Movies" movies={romanceMovies} />
+          <Row title="Documentaries" movies={documentaries} />
           {/* row */}
         </section>
       </main>
